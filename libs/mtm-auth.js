@@ -13,8 +13,9 @@ export class LeanIXMTMAuth {
         grant_type: 'client_credentials'
       }, {
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'          
-        }, auth:{
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        auth: {
           username: 'apitoken',
           password: this.apiToken
         }
